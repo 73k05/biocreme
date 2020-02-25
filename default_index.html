@@ -2,15 +2,25 @@
 <html lang="fr">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<script type="text/javascript" src="./pdfobject.min.js"></script>
-	<link rel="icon" href="http://www.biocreme.fr/favicon.ico?v=2" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./pdfobject.min.js"></script>
+    <link rel="icon" href="http://www.biocreme.fr/favicon.ico?v=2" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159083948-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159083948-1');
+    </script>
 </head>
+
 <body>
-	<script type="text/javascript">
-		PDFObject.embed("./theBIOgarden.pdf", document.body);
-	</script>
+    <script type="text/javascript">
+    PDFObject.embed("./theBIOgarden.pdf", document.body);
+    </script>
 </body>
 
 </html>
